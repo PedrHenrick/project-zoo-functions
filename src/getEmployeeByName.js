@@ -8,5 +8,5 @@ function getEmployeeByName(...employeeName) {
   if (!func) return {};
   return func;
 }
-console.log(getEmployeeByName('Emery'));
+
 module.exports = getEmployeeByName;
