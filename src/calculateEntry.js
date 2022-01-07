@@ -16,11 +16,11 @@ function naoEZero(entrants) {
 function countEntrants(entrants = {}) {
   // seu código aqui
   const retorno1 = Object.values(entrants);
-  const zero = retorno1 === [];
-  let blablabla;
-  if (zero) blablabla = 0;
-  else blablabla = naoEZero(retorno1);
-  return blablabla;
+  const seForZero = retorno1 === [];
+  let verificador;
+  if (seForZero) verificador = 0;
+  else verificador = naoEZero(retorno1);
+  return verificador;
 }
 
 function calculateEntry(entrants) {
