@@ -1,10 +1,12 @@
 const data = require('../data/zoo_data');
 
+const { species } = data;
+
 function getSpeciesByIds(...ids) {
   // seu código aqui
   const animal = ids
-    .map((element) => data.species
-      .find((item) => item.id === element));
+    .map((element) => species
+      .find(({ id }) => id === element));
   return animal;
 }
 
