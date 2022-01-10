@@ -1,5 +1,5 @@
 // Para esse requisito, tive que fazer alguns pr's e fiz a minha lógica baseada em cima do pr do Gabriel Rodrigues.
-// Segue o link do pull request: https://github.com/tryber/sd-018-b-project-zoo-functions/pull/111/commits/42968fa341a6b15ff9b7e2f1ead897342e56c4de
+// Segue o link do pull-request: https://github.com/tryber/sd-018-b-project-zoo-functions/pull/111/commits/42968fa341a6b15ff9b7e2f1ead897342e56c4de
 
 const { species } = require('../data/zoo_data');
 const { hours } = require('../data/zoo_data');
