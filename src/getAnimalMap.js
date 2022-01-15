@@ -84,7 +84,7 @@ function tresArgumentos(options, locale) {
 // Essa função é responsável por separar as funções com dois tipos de parâmetros, dividindo por tipo
 function doisArgumentos(options, locale) {
   const returnLocation = {};
-  if (options.includeNames === true && options.sorted === true) {
+  if (options.includeNames && options.sorted) {
     locale.forEach((local) => {
       returnLocation[local] = locationOfAnimalsAndResidentsSorted(local);
     });

@@ -57,9 +57,4 @@ function getEmployeesCoverage(...argumento) {
   }
 }
 
-console.log(getEmployeesCoverage({ id: 'c1f50212-35a6-4ecd-8223-f835538526c2' }));
-// console.log(getEmployeesCoverage({ name: 'Spry' }));
-// console.log(getEmployeesCoverage());
-// console.log(getEmployeesCoverage({ name: 'Pedro' }));
-
 module.exports = getEmployeesCoverage;
